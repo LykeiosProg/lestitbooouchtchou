@@ -1,0 +1,66 @@
+
+body{
+    background-color: #140F00;
+    overflow: hidden;
+    
+}
+
+
+@font-face {
+    font-family:'EspenHalloween' ;
+    src: url(/projet_commun_halloween/page_videos_halloween/fonts/EspenHalloween.ttf)
+}
+
+h1{
+    font-family: 'EspenHalloween';
+    font-size: 100px;
+    margin-top: 20px;
+    color: #140F00;
+}
+
+
+.halloween{
+    position: relative;
+    height: 90vh;
+    width: 100%;
+}
+
+video{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.nav-color{
+    background-color: #140F00;
+    color: #FEF9EC !important;
+}
+
+header{
+    z-index: 1;
+}
+
+h1:hover{
+    text-shadow: #F86C30 5px 0 10px;;
+    transition: 0.5s;
+}
+
+.card-color{
+    background: #291F00;
+}
+
+.btn-color{
+    background-color: #FF8400;
+    width: 220px;
+    height: 80px;
+    text-align: center;
+    color: #FEF9EC;
+    font-family: 'EspenHalloween';
+    font-size: 50px;
+    border-style: none;
+    border-radius: 8px;
+}

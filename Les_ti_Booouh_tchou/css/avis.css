@@ -1,0 +1,57 @@
+body{
+    background:url(../image/fond-halloween.jpg);
+    background-size: cover;
+    width: 100%;
+}
+
+.stars {
+	text-align: center;
+	color: red;
+}
+
+.stargrey {
+	color: white;
+}
+
+.yellow {
+	color: orange;
+}
+
+.star:hover {
+	cursor: pointer;
+}
+input:focus-within::placeholder{
+	color:transparent;
+}
+textarea:focus-within::placeholder{
+	color:transparent;
+}
+input, textarea {
+	width: 500px;
+	background-color: blueviolet;
+	display: flex;
+}
+
+input{
+	height: 50px;
+}
+
+#stars {
+	width: 500px;
+	margin-bottom: 10px;
+}
+
+button{
+	width: 500px;
+}
+
+label{
+	font-size: x-large;
+	font-weight: bold;
+	color: orange;
+}
+
+h1{
+	text-decoration: underline;
+	font-weight: bold;
+}

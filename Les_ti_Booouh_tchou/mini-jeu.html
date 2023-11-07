@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Venez vous amuser à ce petit jeu d'Halloween en incarnant Ghosty le fantôme qui tente d'atteindre sa destination en évitant les méchants humains.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="./image/Logo ti_Booouh-tchou.ico">
+    <link rel="stylesheet" href="./css/mini-jeu.css">
+    <title>Les ti Booouh'tchou - Jeu du fantôme</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg" data-bs-theme="dark" style="background-color: #140F00;">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html" target="_blank">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled text-white" href="./mini-jeu.html" target="_blank">Mini Jeu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./video-horreur.html" target="_blank">vidéos horreur</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./dessin.html" target="_blank">Dessins</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./Contes-et-légendes.html" target="_blank">Contes et légendes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./contribution.html" target="_blank">Contributions</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="row text-center">
+        <div class="col-12 d-flex flex-row align-items-center justify-content-center">
+            <img src="./image/Logo_tiBooouh-tchou.png" alt="" style="width : 150px"> 
+            <h1 class="text-center text-warning">Jeu du fantôme</h1>
+        </div>
+    </div>
+    <section class=" container-fluid">
+        <div class="text-center text-warning">
+            <p>
+                Utiliser les flèches du clavier pour faire bouger le fantôme vers le haut, la droite,<br> 
+                le bas ou la gauche afin d'esquiver les humains et atteindre l'autre côté du jeu pour gagner.
+            </p>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <canvas id="HALLOWEENGAME" class="img-fluid" style="max-width: 100%;" width="1000" height="300">
+                    </canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark fixed-bottom text-white">
+        <div class="align-items-center">
+            <div class="text-center d-flex justify-content-center">
+                <a href="./avis.html" class="nav-link active mx-3 text-info" target="_blank">Contact</a>
+                <p>Créer par Adrien Halet, GhostCode, Lykeios Prog</p>
+            </div>
+        </div>
+    </footer>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+        <script src="./js/mini-jeu.js"></script>
+</body>
+</html>

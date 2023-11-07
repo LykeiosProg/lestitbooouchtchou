@@ -1,0 +1,10 @@
+canvas{
+    border: 5px solid rgb(27, 26, 26);
+}
+
+body{
+    background: url(../image/halloween_game.gif);
+    background-size:cover;
+    width: 100%;
+}
+
